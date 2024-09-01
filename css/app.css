@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+font-family: 'Spartan', sans-serif;
+}
+
+/*CSS bara de navigare */
+
+.title-bar {
+	background: lightgray;
+}
+
+.title-bar-title {
+	color: black;
+}
+
+.top-bar {
+	width: 100%;
+}
+
+.top-bar-right li a.active {
+	color: black;
+}
+
+.stanga {
+	align-items: center;
+}
+
+.cauta {
+	border-radius: 5000px;
+}
+
+.button {
+	border-radius: 5000px;
+	border-color: gray;
+}
+
+a {
+	color: gray;
+}
+
+a:hover {
+	color: black;
+}
+
+
+/*CSS pentru imaginea de inceput*/
+
+.poza img{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+}
+
+
+/*CSS carduri produse*/
+
+.card {
+	height: 500px;
+	border-radius: 10px;
+	border-color: gray;
+}
+
+.star i {
+	font-size: 10px;
+	color: rgb(243, 181, 25);
+} 
+
+.card-section {
+	cursor: pointer;
+}
+
+
+/*CSS footer*/
+
+#footer {
+	background: lightgray;
+}
+
+.logo {
+	color: #0085b6;
+	font-size: 30px;
+}
+
+
+
+.butonok {
+	border-color: lightblue;
+	background: lightblue;
+}
+
+.butonok:hover {
+	border-color: lightpink;
+	background: lightpink;
+}
+
+
+.product-card-sale {
+  color: gray;
+  text-decoration: line-through;
+}
+
+
+/*CSS pentru slideul recomandate*/
+
+.recomand-font {
+	font-size: 13px;
+}
+
+
+/*CSS pentru tabele*/
+table, td {
+	border: 2px solid white;
+	border-collapse: collapse;
+  }
+  
+td {
+	background-color: #dfdef3;
+  }
